@@ -1,14 +1,8 @@
-# Coffee Sales Prediction ☕💰
+# Coffee Sales Prediction 
 
 ## Overview
 This project uses machine learning to predict coffee sales revenue (money) based on various features such as coffee type, order date, and other characteristics.  
 The goal is to build an accurate regression model to estimate sales and explore key data patterns.
-
-## Files Included
-- **pandas1-COFFEE_SALES.ipynb** – Main Jupyter Notebook containing data cleaning, feature engineering, visualization, model training, and evaluation.  
-- **PANDAS-COFFEE_SALES_PREDICTION.csv** – Output CSV with actual vs. predicted sales values.  
-- **COFFEE-SALES-TXTFILE.txt** – Plain text summary or notes from the project.  
-- **README.md** – Project description, structure, and usage instructions.  
 
 ## Features Used
 - **Categorical features**: `coffee_name`, `cash_type`, `has_milk`  
@@ -33,10 +27,12 @@ The goal is to build an accurate regression model to estimate sales and explore 
 ````
 coffee-sales-prediction/
 │
-├── pandas1-COFFEE_SALES.py # Main notebook with full workflow
-├── PANDAS-COFFEE_SALES_PREDICTION.csv # Predicted vs actual sales CSV
-├── COFFEE-SALES-TXTFILE.txt # Project notes or summary
-└── README.md # Project documentation
+├── pandas1_coffee_sales.py                # Main Python script with full workflow
+├── PANDAS - COFFEE SALES PREDICTION.csv   # Output CSV with actual vs predicted values
+├── README.md                               # Project description and usage
+├── requirements.txt                        # Project dependencies
+└── LICENSE                                 # Optional: license file
+                   
 ````
 ## Notes
 This project demonstrates **data preprocessing, feature engineering, model building, and evaluation**.  
